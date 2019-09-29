@@ -1,0 +1,30 @@
+.topnav {
+  margin-bottom: 15px;
+  align-items: center; }
+  .topnav .nav-item {
+    margin-left: 10px;
+    font-size: 20px;
+    display: inline-block; }
+    .topnav .nav-item .label {
+      color: black;
+      padding: 10px;
+      transition: all 0.3s ease-in-out; }
+    .topnav .nav-item .label.active {
+      background-color: #615e5e;
+      color: white;
+      border-radius: 5px; }
+    .topnav .nav-item .label:hover {
+      background-color: black;
+      color: white;
+      border-radius: 5px; }
+
+@media only screen and (max-width: 768px) {
+  .topnav {
+    text-align: center; }
+    .topnav .nav-item {
+      font-size: 16px;
+      display: inline-block;
+      padding: 0px 15px;
+      margin-left: 0px; }
+      .topnav .nav-item .label {
+        color: black; } }

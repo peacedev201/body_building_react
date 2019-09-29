@@ -1,0 +1,22 @@
+.food {
+  padding-top: 50px; }
+  .food .title {
+    font-size: 20px;
+    color: #1C15DE;
+    margin: 10px 0px;
+    text-align: center; }
+  .food .description {
+    font-size: 18px;
+    color: black;
+    text-align: justify; }
+    .food .description .rightImage {
+      display: flex; }
+      .food .description .rightImage img {
+        height: 20vh;
+        width: auto; }
+    @media only screen and (max-width: 768px) {
+      .food .description .rightImage {
+        display: block; }
+        .food .description .rightImage img {
+          width: 100%;
+          height: auto; } }

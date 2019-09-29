@@ -1,0 +1,26 @@
+.sideBar{
+  padding-right:30px;
+  img{
+    width:120px;
+    // height:70px;
+  }
+  
+  .sideText{
+    margin-top:50px;
+    .title{
+       text-align: center;
+       font-size: 22px;
+       font-weight: bold;
+       color:black;
+    }
+    .article{
+       text-align: left;
+       font-size: 18px;
+       margin-top:15px;
+       color: black;
+    }
+    hr{
+      margin:0px;
+    }
+  }
+}

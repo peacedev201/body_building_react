@@ -1,0 +1,9 @@
+.workout {
+  padding-top: 50px; }
+  .workout .title {
+    font-size: 20px;
+    color: #1C15DE;
+    margin: 10px 0px; }
+  .workout .description {
+    font-size: 18px;
+    color: black; }

@@ -1,0 +1,41 @@
+.topnav{
+  margin-bottom: 15px;
+  // margin-left:100px;
+  // display:flex;
+  align-items: center;
+  .nav-item{
+    margin-left:10px;
+    font-size: 20px;
+    display: inline-block;
+    .label{
+      color:black;
+      padding:10px;
+      transition:all 0.3s ease-in-out;
+    }
+    .label.active{
+      background-color: #615e5e;
+      color:white;
+      border-radius: 5px;
+    }
+    .label:hover{
+      background-color: black;
+      color:white;
+      border-radius: 5px;
+    }
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  .topnav{
+    text-align: center;
+    .nav-item{
+      font-size: 16px;
+      display: inline-block;
+      padding:0px 15px;
+      margin-left: 0px;
+      .label{
+        color:black;
+      }
+    }
+  }
+}
